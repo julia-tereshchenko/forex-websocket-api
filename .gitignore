@@ -1,0 +1,36 @@
+# .gitignore
+
+# Python related
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.venv/
+*.log
+
+# pytest cache
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+*.dockerignore
+*.log
+.env
+
+# Logs and databases
+*.log
+*.sqlite
+
